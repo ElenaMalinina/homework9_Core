@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
+//1. Написать функцию, принимающую список Student и возвращающую список уникальных курсов, на которые подписаны студенты.
+//2. Написать функцию, принимающую на вход список Student и возвращающую список из трех самых любознательных (любознательность определяется количеством курсов).
+//3. Написать функцию, принимающую на вход список Student и экземпляр Course, возвращающую список студентов, которые посещают этот курс.
 public class Main {
     public static void main(String[] args) {
         List<Student> studentList = new ArrayList<>();
